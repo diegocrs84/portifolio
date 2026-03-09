@@ -307,7 +307,6 @@
             <span class="tech-pill">React</span>
             <span class="tech-pill">Node.js</span>
             <span class="tech-pill">PostgreSQL</span>
-            <span class="tech-pill">AWS</span>
           </div>
         </div>
       </article>
@@ -324,43 +323,63 @@
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
-            <p>Necessidade crítica de centralizar gestão de fornecedores e prestadores. Compliance e contratos descentralizados causavam riscos e atrasos.</p>
+            <p>Necessidade de estruturar um módulo de Gestão de Terceiros dentro da plataforma do cliente, permitindo centralizar o relacionamento entre contratantes e empresas prestadoras de serviço, além de garantir maior controle sobre obrigações trabalhistas e compliance documental.
+              Antes da implementação, as informações sobre empresas terceiras, trabalhadores alocados, encargos e documentos obrigatórios estavam distribuídas entre planilhas e processos manuais, dificultando o acompanhamento e aumentando riscos operacionais.
+              O novo módulo foi projetado para centralizar e automatizar a gestão dessas informações, contemplando:
+            <ul>
+              <li>Cadastro e vínculo entre Contratante e Empresa Terceira</li>
+              <li>Exibição de encargos trabalhistas e folha de pagamento dos terceiros</li>
+              <li>Gestão de certidões obrigatórias das empresas prestadoras</li>
+              <li>Visualização de trabalhadores alocados por empresa terceirizada</li>
+              <li>Análise e validação de documentos formais enviados pelas terceiras</li>
+              <li>Envio de notificações automatizadas por e-mail para contratantes, terceiros e analistas</li>
+            </ul>
+              Grande parte das informações consumidas pelo módulo eram fornecidas pelo cliente via APIs, exigindo integração e consolidação de diferentes fontes de dados.</p>
           </div>
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Processo manual em 15+ spreadsheets. Sem rastreabilidade de contratos, vencimentos ou performance. Falta de SLA's definidas.</p>
+            <p>O principal desafio foi estruturar uma solução capaz de organizar e automatizar um processo altamente operacional, que até então dependia de controles manuais e planilhas.
+              
+                Entre os desafios do projeto estavam:
+              <ul>
+                <li>Integrar múltiplas APIs do cliente para obtenção de dados financeiros e trabalhistas</li>
+                <li>Estruturar a jornada completa da gestão de terceiros dentro da plataforma existente</li>
+                <li>Substituir processos manuais de análise documental realizados em planilhas</li>
+                <li>Garantir rastreabilidade de documentos, certidões e vínculos trabalhistas</li>
+                <li>Estruturar regras de negócio para validação das informações enviadas pelas empresas terceiras</li>
+                <li>Criar um fluxo de notificações automáticas para apoiar o acompanhamento das pendências</li>
+              </ul>
+                Além disso, o projeto foi dividido em 5 fases de entrega, exigindo planejamento incremental e alinhamento constante com stakeholders.</p>
           </div>
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
-              <li>Mapeamento de processo atual (AS-IS) com 3 departamentos</li>
-              <li>Desenho de fluxo ideal (TO-BE) com BPMN 2.0</li>
-              <li>Definição de regras de negócio complexas</li>
-              <li>Análise de viabilidade técnica e estimativas</li>
-              <li>Business case com ROI para executivos</li>
+            <li>Levantamento e refinamento de requisitos com stakeholders do cliente</li>
+            <li>Mapeamento do processo atual de gestão de terceiros e identificação de gargalos operacionais</li>
+            <li>Definição da estrutura funcional do módulo dentro da plataforma existente</li>
+            <li>Escrita e detalhamento de histórias de usuário e critérios de aceitação</li>
+            <li>Colaboração com o time técnico para integração das funcionalidades via APIs do cliente</li>
+            <li>Definição das regras de negócio para validação de documentos e certidões</li>
+            <li>Priorização do backlog considerando as 5 fases de evolução do módulo</li>
+            <li>companhamento do desenvolvimento e validação funcional das entregas</li>
+            <li>Participação em reuniões de acompanhamento e alinhamento com stakeholders</li>
             </ul>
           </div>
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
-            <div class="project-metrics">
-              <div class="metric">
-                <span class="metric-value">80%</span>
-                <span class="metric-label">↓ Tempo</span>
-              </div>
-              <div class="metric">
-                <span class="metric-value">100%</span>
-                <span class="metric-label">Compliance</span>
-              </div>
-              <div class="metric">
-                <span class="metric-value">R$ 2.3M</span>
-                <span class="metric-label">Impacto/ano</span>
-              </div>
-            </div>
+            <ul class="project-results-list">
+              <li>Redução significativa do tempo de análise de documentos e relatórios operacionais</li>
+              <li>Centralização da gestão de empresas terceiras e trabalhadores em uma única plataforma</li>
+              <li>Eliminação de controles manuais realizados em planilhas</li>
+              <li>Maior rastreabilidade de documentos, certidões e vínculos contratuais</li>
+              <li>Melhoria na comunicação entre contratantes, empresas terceiras e analistas através de notificações automatizadas</li>
+              <li>Apoio à conformidade regulatória e controle de obrigações trabalhistas</li>
+            </ul>
           </div>
           <div class="project-techs">
             <span class="tech-pill">Java</span>
-            <span class="tech-pill">Oracle</span>
-            <span class="tech-pill">Angular</span>
+            <span class="tech-pill">PostgreSQL</span>
+            <span class="tech-pill">Vue.js</span>
           </div>
         </div>
       </article>
