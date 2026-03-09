@@ -146,8 +146,10 @@ nav {
 .hero-right {
   background: var(--cream);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 3rem;
   padding: 4rem;
   position: relative;
   overflow: hidden;
@@ -183,6 +185,23 @@ nav {
   color: var(--muted);
   margin-top: 0.5rem;
   font-weight: 400;
+}
+
+.hero-profile {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards 0.3s;
+}
+.profile-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--accent);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+.profile-image:hover {
+  transform: scale(1.02);
 }
 
 /* ─── SECTIONS ─── */
@@ -502,6 +521,7 @@ footer span { color: var(--accent); }
   .hero { grid-template-columns: 1fr; }
   .hero-right { min-height: 300px; }
   .hero-stats { grid-template-columns: 1fr 1fr; max-width: 100%; }
+  .profile-image { width: 220px; height: 220px; }
   section { padding: 5rem 1.5rem; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
   .projects-grid { grid-template-columns: 1fr; }
