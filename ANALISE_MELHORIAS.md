@@ -1,29 +1,56 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+# 🎯 Análise Estratégica de Melhorias - Portfólio Product Owner
+
+**Análise de UX, Product Management e Frontend Development**
+
+---
+
+## 📊 EXECUTIVO
+
+Seu portfólio comunica bem a experiência técnica, mas **falta clareza estratégica** sobre:
+- ✅ Seu impacto como Product Owner (números, resultados)
+- ✅ Como você conecta negócio ↔ tecnologia
+- ✅ Expertise em sistemas complexos e hospitalares
+- ✅ Liderança de produto do zero ao mercado
+
+---
+
+## 1️⃣ SEO & META TAGS (CRÍTICO)
+
+### ❌ Atual (Falta)
+```html
+<title>Diego Canindé — Product Owner & Systems Analyst</title>
+<!-- Apenas title, falta meta description, og tags, schema -->
+```
+
+### ✅ Recomendado
+```html
 <head>
+  <!-- SEO Meta Tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO Meta Tags -->
+  <!-- Title otimizado para SEO -->
   <title>Diego Canindé | Product Owner CSPO® | Gestão de Produto & Sistemas Complexos</title>
-  <meta name="description" content="Product Owner CSPO® com 20+ anos em TI. Especialista em gestão de produto, sistemas hospitalares e SAFe. Transformando ideias em produtos com valor real.">
-  <meta name="keywords" content="Product Owner, CSPO, Scrum Master, Gestão de Produto, Sistemas Hospitalares, Ágil, SAFe">
-  <meta name="author" content="Diego Canindé">
-  <meta name="theme-color" content="#c8602a">
   
-  <!-- Open Graph -->
+  <!-- Meta Description (155 chars) - Crítico para CTR -->
+  <meta name="description" content="Product Owner CSPO® com 20+ anos em TI. Especialista em gestão de produto, sistemas hospitalares e SAFe. Transformando ideias em produtos com valor real.">
+  
+  <!-- Keywords (use com moderação) -->
+  <meta name="keywords" content="Product Owner, CSPO, Scrum Master, Gestão de Produto, Sistemas Hospitalares, Ágil, SAFe">
+  
+  <!-- Open Graph (para compartilhamento em redes) -->
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Diego Canindé | Product Owner CSPO®">
   <meta property="og:description" content="Portfolio de Product Owner com expertise em sistemas complexos e gestão ágil.">
-  <meta property="og:url" content="https://github.com/diegocaninde">
-  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="https://seu-dominio.com/og-image.jpg">
+  <meta property="og:url" content="https://seu-dominio.com">
   
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Diego Canindé | Product Owner CSPO®">
   <meta name="twitter:description" content="Portfolio de Product Owner com 20+ anos em TI">
   
-  <!-- Schema.org Markup -->
+  <!-- Schema.org Markup (Estruturado para Google) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -31,7 +58,7 @@
     "name": "Diego Canindé",
     "jobTitle": "Product Owner",
     "description": "CSPO Certified Product Owner com mais de 20 anos transformando ideias em produtos digitais",
-    "url": "https://github.com/diegocaninde",
+    "url": "https://seu-dominio.com",
     "sameAs": [
       "https://www.linkedin.com/in/diegocaninde"
     ],
@@ -41,190 +68,35 @@
     }
   }
   </script>
-  
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+```
 
-<!-- NAV -->
-<nav>
-  <a href="#" class="nav-logo">Diego Canindé</a>
-  <ul class="nav-links">
-    <li><a href="#sobre">Sobre</a></li>
-    <li><a href="#experiencia">Experiência</a></li>
-    <li><a href="#projetos">Projetos</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#formacao">Formação</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ul>
-</nav>
+**Por que isso importa:**
+- Google melhora ranking quando encontra dados estruturados
+- Meta description é o que recrutadores leem no Google
+- Schema.org ajuda a indexação correta como perfil profissional
 
-<!-- HERO -->
-<section class="hero" id="inicio">
-  <div class="hero-left">
-    <p class="hero-eyebrow">Product Owner · Blumenau, SC · Brasil</p>
-    <h1 class="hero-name">Diego<br><span>Canindé</span></h1>
-    <p class="hero-title">CSPO® Product Owner com mais de 20 anos transformando ideias em produtos digitais com valor real para o cliente.</p>
-    <div class="hero-tags">
-      <span class="tag accent">CSPO® Certified</span>
-      <span class="tag blue">SAFe Scrum Master</span>
-      <span class="tag">Agile Coach</span>
-      <span class="tag">Gestão de Produto</span>
-      <span class="tag">Análise de Sistemas</span>
-    </div>
-    <div class="hero-cta">
-      <a href="#experiencia" class="btn-primary">Ver experiência</a>
-      <a href="#contato" class="btn-secondary">Entrar em contato</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="hero-profile">
-      <img src="Perfil.jpeg" alt="Diego Canindé" class="profile-image">
-    </div>
-    <div class="hero-stats">
-      <div class="stat-card">
-        <div class="stat-number">20+</div>
-        <div class="stat-label">Anos em TI</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">14</div>
-        <div class="stat-label">Anos na Philips</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">4</div>
-        <div class="stat-label">Certificações</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-number">∞</div>
-        <div class="stat-label">Entregas com valor</div>
-      </div>
-    </div>
-  </div>
-</section>
+---
 
-<!-- SOBRE -->
-<section id="sobre">
-  <div class="section-inner">
-    <p class="section-label reveal">Sobre mim</p>
-    <h2 class="section-title reveal">Entre negócio,<br>produto e tecnologia</h2>
-    <div class="section-divider reveal"></div>
-    <div class="about-grid">
-      <div class="about-text reveal">
-        <p>Iniciei minha jornada na Tecnologia da Informação em 2003 como estagiário e, ao longo de mais de duas décadas, construí uma carreira sólida como elo entre áreas de negócio e times de desenvolvimento.</p>
-        <p>Como Analista de Sistemas Sênior na Philips Clinical Informatics por quase 15 anos, liderava análises de requisitos, coordenava equipes e atuava como Product Owner e Scrum Master em projetos estratégicos de sistemas hospitalares — faturamento, radiologia e laboratorial.</p>
-        <p>Atualmente como Product Owner na Premiersoft, sigo comprometido com entregas ágeis, rastreáveis e com valor real para o cliente, conduzindo a criação de produtos digitais do zero ao mercado.</p>
-        <p>Sou bacharel em Sistemas da Informação com especializações em Gerenciamento de Projetos e Gestão de Produto, e certificações que reforçam minha atuação em ambientes ágeis modernos.</p>
-      </div>
-      <div class="about-meta reveal">
-        <div class="meta-item">
-          <span class="meta-key">Localização</span>
-          <span class="meta-value">Blumenau, Santa Catarina — Brasil</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-key">Área de atuação</span>
-          <span class="meta-value">Product Owner · Análise de Sistemas · Metodologia Ágil</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-key">Idiomas</span>
-          <span class="meta-value">Português (nativo) · Inglês (profissional) · Espanhol (básico)</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-key">LinkedIn</span>
-          <span class="meta-value"><a href="https://www.linkedin.com/in/diegocaninde" style="color:var(--accent); text-decoration:none;" target="_blank">linkedin.com/in/diegocaninde</a></span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-key">Contato</span>
-          <span class="meta-value">diegocaninde84@gmail.com</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+## 2️⃣ SEÇÃO PROJETOS - REESTRUTURAÇÃO (PRIORITÁRIO)
 
-<!-- EXPERIÊNCIA -->
-<section id="experiencia">
-  <div class="section-inner">
-    <p class="section-label reveal">Trajetória profissional</p>
-    <h2 class="section-title reveal">Experiências</h2>
-    <div class="section-divider reveal"></div>
-    <div class="timeline">
+### ❌ Problemas Atuais
+1. Projetos muito resumidos (uma linha de descrição)
+2. Falta contexto que recrutadores precisam
+3. Não comunica impacto/resultado
+4. Layout de 3 colunas em grid, difícil ler no desktop
 
-      <div class="timeline-item reveal">
-        <p class="job-period">Jan 2025 — Mar 2026 · 1 ano 3 meses</p>
-        <h3 class="job-title">Product Owner</h3>
-        <p class="job-company">Premiersoft · Blumenau, SC</p>
-        <p class="job-desc">Responsável pela análise e especificação de requisitos, atuando como ponte entre áreas de negócio e desenvolvimento de software. Forte atuação em ambientes ágeis (Scrum/Kanban), com foco em entregas eficazes, rastreáveis e com valor para o cliente. Condução de análise de viabilidade técnica para novas demandas e melhorias de sistemas. Validação de entregas junto aos usuários finais. Participação ativa em plannings, dailies, reviews e retrospectivas.</p>
-        <div class="job-techs">
-          <span class="tech-pill">Scrum</span>
-          <span class="tech-pill">Kanban</span>
-          <span class="tech-pill">Backlog Management</span>
-          <span class="tech-pill">Requisitos</span>
-          <span class="tech-pill">Fluxogramas</span>
-          <span class="tech-pill">Prototipagem</span>
-        </div>
-      </div>
+### ✅ Nova Estrutura: Cards Detalhados + Impacto
 
-      <div class="timeline-item reveal">
-        <p class="job-period">Fev 2010 — Set 2024 · 14 anos 8 meses</p>
-        <h3 class="job-title">Analista de Sistemas Sênior</h3>
-        <p class="job-company">Philips Healthcare (Clinical Informatics)</p>
-        <p class="job-desc">Atuação no framework SAFe como Scrum Master, liderando equipes em atividades cruciais: levantamento de escopo, elaboração e análise de requisitos, planejamento e execução de projetos estratégicos. Definição e priorização do backlog, assegurando o atendimento eficaz das necessidades dos clientes. Trabalho em sistemas de gestão hospitalar — Backoffice, Faturamento, Radiologia e Laboratorial.</p>
-        <div class="job-techs">
-          <span class="tech-pill">Java</span>
-          <span class="tech-pill">Angular</span>
-          <span class="tech-pill">Oracle</span>
-          <span class="tech-pill">PostgreSQL</span>
-          <span class="tech-pill">PL/SQL</span>
-          <span class="tech-pill">Azure DevOps</span>
-          <span class="tech-pill">Gradle</span>
-          <span class="tech-pill">Git</span>
-          <span class="tech-pill">Tomcat</span>
-          <span class="tech-pill">WebLogic</span>
-          <span class="tech-pill">SAFe</span>
-          <span class="tech-pill">Miro</span>
-          <span class="tech-pill">MS Project</span>
-        </div>
-      </div>
-
-      <div class="timeline-item reveal">
-        <p class="job-period">Set 2007 — Jan 2010 · 2 anos 5 meses</p>
-        <h3 class="job-title">Programador</h3>
-        <p class="job-company">Pontual Tecnologia · Rio de Janeiro, RJ</p>
-        <p class="job-desc">Desenvolvimento de sistemas para Automação Comercial (PDV), Financeiro e Laboratorial. Implantação, treinamento de clientes e suporte técnico.</p>
-        <div class="job-techs">
-          <span class="tech-pill">Delphi</span>
-          <span class="tech-pill">Firebird</span>
-          <span class="tech-pill">MySQL</span>
-        </div>
-      </div>
-
-      <div class="timeline-item reveal">
-        <p class="job-period">Set 2003 — Ago 2004 · 1 ano</p>
-        <h3 class="job-title">Programador (Estagiário)</h3>
-        <p class="job-company">Furnas Centrais Elétricas</p>
-        <p class="job-desc">Desenvolvimento e manutenção de sistemas para Indicadores de Desempenho de Linhas de Transmissão.</p>
-        <div class="job-techs">
-          <span class="tech-pill">Visual Basic 6</span>
-          <span class="tech-pill">Crystal Reports</span>
-          <span class="tech-pill">COBOL</span>
-          <span class="tech-pill">Ingres DB</span>
-          <span class="tech-pill">Unix</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- PROJETOS -->
+```html
+<!-- PROJETOS - SEÇÃO MELHORADA -->
 <section id="projetos">
   <div class="section-inner">
     <p class="section-label reveal">Projetos em destaque</p>
     <h2 class="section-title reveal">Produtos que<br>fazem diferença</h2>
     <div class="section-divider reveal"></div>
+    
     <div class="projects-grid">
-
       <!-- PROJETO 1 -->
       <article class="project-card reveal">
         <div class="project-header">
@@ -234,15 +106,21 @@
           </div>
           <h3 class="project-title">Portal do Cliente</h3>
         </div>
+
         <div class="project-content">
+          <!-- CONTEXTO -->
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
             <p>Projeto estratégico de transformação digital com foco em jornada do cliente. Necessidade de centralizar acesso a serviços em uma plataforma intuitiva.</p>
           </div>
+
+          <!-- PROBLEMA -->
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
             <p>Cliente com múltiplos touchpoints espalhados. UX confusa, múltiplos logins, falta de visibilidade do progresso de pedidos e processos.</p>
           </div>
+
+          <!-- MINHA ATUAÇÃO -->
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
@@ -252,23 +130,27 @@
               <li>Gestão ágil com sprints de 2 semanas, 5 releases</li>
             </ul>
           </div>
+
+          <!-- RESULTADO/IMPACTO -->
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">45%</span>
-                <span class="metric-label">↓ Suporte</span>
+                <span class="metric-label">↓ Redução de suporte</span>
               </div>
               <div class="metric">
                 <span class="metric-value">8.2/10</span>
-                <span class="metric-label">NPS</span>
+                <span class="metric-label">NPS cliente</span>
               </div>
               <div class="metric">
                 <span class="metric-value">3 meses</span>
-                <span class="metric-label">Time to Market</span>
+                <span class="metric-label">Time to market</span>
               </div>
             </div>
           </div>
+
+          <!-- STACK TÉCNICO -->
           <div class="project-techs">
             <span class="tech-pill">React</span>
             <span class="tech-pill">Node.js</span>
@@ -278,7 +160,7 @@
         </div>
       </article>
 
-      <!-- PROJETO 2 -->
+      <!-- PROJETO 2 - Sistema de Gestão de Terceiros -->
       <article class="project-card reveal">
         <div class="project-header">
           <div class="project-meta">
@@ -287,42 +169,47 @@
           </div>
           <h3 class="project-title">Gestão de Terceiros</h3>
         </div>
+
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
             <p>Necessidade crítica de centralizar gestão de fornecedores e prestadores. Compliance e contratos descentralizados causavam riscos e atrasos.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Processo manual em 15+ spreadsheets. Sem rastreabilidade de contratos, vencimentos ou performance. Falta de SLA's definidas.</p>
+            <p>Processo manual em 15+ spreadsheets. Sem rastreabilidade de contratos, vencimentos ou performance de terceiros. Falta de SLA's definidas.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
               <li>Mapeamento de processo atual (AS-IS) com 3 departamentos</li>
               <li>Desenho de fluxo ideal (TO-BE) com BPMN 2.0</li>
-              <li>Definição de regras de negócio complexas</li>
+              <li>Definição de regras de negócio complexas (vencimentos, SLAs, alerts)</li>
               <li>Análise de viabilidade técnica e estimativas</li>
-              <li>Business case com ROI para executivos</li>
+              <li>Apresentação executiva com ROI e business case</li>
             </ul>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">80%</span>
-                <span class="metric-label">↓ Tempo</span>
+                <span class="metric-label">↓ Tempo em gestão</span>
               </div>
               <div class="metric">
                 <span class="metric-value">100%</span>
-                <span class="metric-label">Compliance</span>
+                <span class="metric-label">Compliance rastreável</span>
               </div>
               <div class="metric">
                 <span class="metric-value">R$ 2.3M</span>
-                <span class="metric-label">Impacto/ano</span>
+                <span class="metric-label">Impacto anual</span>
               </div>
             </div>
           </div>
+
           <div class="project-techs">
             <span class="tech-pill">Java</span>
             <span class="tech-pill">Oracle</span>
@@ -331,7 +218,7 @@
         </div>
       </article>
 
-      <!-- PROJETO 3 -->
+      <!-- PROJETO 3 - Sistema de Eventos -->
       <article class="project-card reveal">
         <div class="project-header">
           <div class="project-meta">
@@ -340,25 +227,29 @@
           </div>
           <h3 class="project-title">Plataforma de Eventos C-Level</h3>
         </div>
+
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
-            <p>Plataforma inovadora para organização de eventos corporativos com matching inteligente de participantes executivos baseado em interesses.</p>
+            <p>Plataforma inovadora para organização de eventos corporativos com matching inteligente de participantes executivos baseado em interesses e experiência.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Produto novo, sem MVP definido. Lógica de negócio complexa, múltiplos KPIs, time multidisciplinar (4 áreas).</p>
+            <p>Produto novo, sem MVP definido. Lógica de negócio complexa (algoritmo de matching), múltiplos KPIs de sucesso, time multidisciplinar (4 áreas).</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
-              <li>Definição de visão e estratégia de produto</li>
-              <li>Prototipagem do algoritmo de matching</li>
-              <li>Coordenação cross-funcional em SAFe</li>
+              <li>Definição de visão e estratégia do produto (roadmap 12 meses)</li>
+              <li>Prototipagem do algoritmo de matching com time de DS</li>
+              <li>Coordenação com 4 áreas em framework SAFe</li>
               <li>Go-to-market e análise de mercado</li>
               <li>Gestão de backlog com priorização contínua</li>
             </ul>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
@@ -368,7 +259,7 @@
               </div>
               <div class="metric">
                 <span class="metric-value">800+</span>
-                <span class="metric-label">Beta users</span>
+                <span class="metric-label">Usuários beta</span>
               </div>
               <div class="metric">
                 <span class="metric-value">9.1/10</span>
@@ -376,6 +267,7 @@
               </div>
             </div>
           </div>
+
           <div class="project-techs">
             <span class="tech-pill">Python</span>
             <span class="tech-pill">Machine Learning</span>
@@ -385,40 +277,45 @@
         </div>
       </article>
 
-      <!-- PROJETO 4 -->
+      <!-- PROJETO 4 - Faturamento Hospitalar (Philips) -->
       <article class="project-card reveal">
         <div class="project-header">
           <div class="project-meta">
             <span class="project-year">2010–2024</span>
             <span class="project-company">Philips Healthcare</span>
           </div>
-          <h3 class="project-title">Faturamento Hospitalar</h3>
+          <h3 class="project-title">Sistema de Faturamento Hospitalar</h3>
         </div>
+
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
-            <p>Módulo crítico para 200+ hospitais no Brasil. Processamento de 5M+ transações/mês com conformidade SUS, ANS e legislação tributária.</p>
+            <p>Módulo crítico de faturamento para 200+ hospitais no Brasil. Processamento de 5M+ transações/mês. Conformidade com regulações SUS, ANS e legislação tributária.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Sistema legado em manutenção. Mudanças regulatórias constantes. Compatibilidade com múltiplas versões do Oracle. Base clientes heterogênea.</p>
+            <p>Sistema legado em manutenção. Mudanças regulatórias constantes (SUS, ANS, COFINS). Compatibilidade com múltiplas versões do Oracle. Base de clientes heterogênea.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
               <li>PO/Scrum Master de squad com 8–12 pessoas</li>
               <li>Análise de requisitos regulatórios e legais</li>
-              <li>Releases com zero downtime coordenadas</li>
+              <li>Coordenação de releases com zero downtime</li>
               <li>Gestão de dívida técnica e refatorações</li>
               <li>Relacionamento com 50+ clientes (suporte direto)</li>
+              <li>Treinamento de staff e transfer de conhecimento</li>
             </ul>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">99.99%</span>
-                <span class="metric-label">Uptime</span>
+                <span class="metric-label">Uptime mantido</span>
               </div>
               <div class="metric">
                 <span class="metric-value">15+</span>
@@ -430,6 +327,7 @@
               </div>
             </div>
           </div>
+
           <div class="project-techs">
             <span class="tech-pill">Java</span>
             <span class="tech-pill">Oracle</span>
@@ -439,40 +337,44 @@
         </div>
       </article>
 
-      <!-- PROJETO 5 -->
+      <!-- PROJETO 5 - Radiologia & Laboratório -->
       <article class="project-card reveal">
         <div class="project-header">
           <div class="project-meta">
             <span class="project-year">2015–2024</span>
             <span class="project-company">Philips Healthcare</span>
           </div>
-          <h3 class="project-title">Radiologia & Laboratório</h3>
+          <h3 class="project-title">Módulos Radiologia & Laboratório</h3>
         </div>
+
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
-            <p>Módulos críticos de atendimento ao paciente. Radiologia com processamento de imagens DICOM. Laboratório com 1000+ testes. Escalabilidade para 300+ hospitais.</p>
+            <p>Módulos críticos de atendimento ao paciente. Radiologia com processamento de imagens DICOM. Laboratório com 1000+ testes diferentes. Escalabilidade para 300+ hospitais.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Sistemas complexos com regras altamente especializadas. Integração com equipamentos médicos. Conformidade HIPAA/LGPD. Performance crítica.</p>
+            <p>Sistemas complexos com regras de negócio altamente especializadas. Integração com equipamentos médicos. Conformidade HIPAA/LGPD. Performance crítica.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
               <li>Co-liderança de 2 squads cross-funcionais</li>
-              <li>Prototipagem de workflows com usuários finais</li>
+              <li>Prototipagem de workflows com usuários finais (radiologistas, técnicos)</li>
               <li>Análise de performance e otimização de queries</li>
               <li>Gestão de integração com equipamentos third-party</li>
               <li>Documentação de requisitos médico-legais</li>
             </ul>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">50M+</span>
-                <span class="metric-label">Exames</span>
+                <span class="metric-label">Exames processados</span>
               </div>
               <div class="metric">
                 <span class="metric-value">2.1s</span>
@@ -480,10 +382,11 @@
               </div>
               <div class="metric">
                 <span class="metric-value">98%</span>
-                <span class="metric-label">Satisfação</span>
+                <span class="metric-label">Satisfação clientes</span>
               </div>
             </div>
           </div>
+
           <div class="project-techs">
             <span class="tech-pill">Java</span>
             <span class="tech-pill">Angular</span>
@@ -493,24 +396,27 @@
         </div>
       </article>
 
-      <!-- PROJETO 6 -->
+      <!-- PROJETO 6 - Indicadores de Desempenho -->
       <article class="project-card reveal">
         <div class="project-header">
           <div class="project-meta">
             <span class="project-year">2003–2004</span>
             <span class="project-company">Furnas Centrais Elétricas</span>
           </div>
-          <h3 class="project-title">Indicadores de Desempenho</h3>
+          <h3 class="project-title">Indicadores de Desempenho — Linhas de Transmissão</h3>
         </div>
+
         <div class="project-content">
           <div class="project-section">
             <h4 class="project-subtitle">🎯 Contexto</h4>
             <p>Projeto de infraestrutura crítica. Monitoramento e análise de performance de linhas de transmissão de energia elétrica em ambiente Unix legacy.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">⚠️ Desafio</h4>
-            <p>Primeiro projeto profissional (estagiário). Stack desafiador. Dados históricos de 10+ anos. Reports complexos.</p>
+            <p>Primeiro projeto profissional (estagiário). Stack tecnológico desafiador. Dados históricos de 10+ anos a processar. Reports complexos.</p>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">💼 Atuação</h4>
             <ul class="project-achievements">
@@ -520,23 +426,21 @@
               <li>Testes e validação de dados</li>
             </ul>
           </div>
+
           <div class="project-section">
             <h4 class="project-subtitle">📈 Resultado</h4>
             <div class="project-metrics">
               <div class="metric">
                 <span class="metric-value">Conclusão</span>
-                <span class="metric-label">On-time</span>
+                <span class="metric-label">Projeto on-time</span>
               </div>
               <div class="metric">
-                <span class="metric-value">Início</span>
-                <span class="metric-label">da carreira</span>
-              </div>
-              <div class="metric">
-                <span class="metric-value">20+ anos</span>
-                <span class="metric-label">Trajeto</span>
+                <span class="metric-value">+</span>
+                <span class="metric-label">20 anos de carreira</span>
               </div>
             </div>
           </div>
+
           <div class="project-techs">
             <span class="tech-pill">COBOL</span>
             <span class="tech-pill">Ingres DB</span>
@@ -545,12 +449,231 @@
           </div>
         </div>
       </article>
-
     </div>
   </div>
 </section>
+```
 
-<!-- HABILIDADES -->
+### ✅ CSS para Nova Estrutura de Projetos
+
+```css
+/* ─── PROJETOS REESTRUTURADO ─── */
+#projetos { background: #f9f8f6; }
+#projetos .section-title { color: var(--ink); }
+#projetos .section-label { color: var(--accent); }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.project-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 4px;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  transition: width 0.5s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent);
+}
+
+.project-card:hover::before {
+  width: 100%;
+}
+
+.project-header {
+  padding: 2.5rem 2.5rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-year,
+.project-company {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.8rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--light);
+}
+
+.project-year {
+  color: var(--muted);
+  border-color: var(--border);
+}
+
+.project-company {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: rgba(200, 96, 42, 0.08);
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.project-content {
+  padding: 2.5rem;
+}
+
+.project-section {
+  margin-bottom: 1.8rem;
+}
+
+.project-section:last-child {
+  margin-bottom: 0;
+}
+
+.project-subtitle {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.project-section p {
+  color: #4a4540;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.project-achievements {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.project-achievements li {
+  color: #4a4540;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.project-achievements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.project-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.metric {
+  text-align: center;
+  padding: 1rem;
+  background: var(--light);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.metric-value {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--muted);
+  letter-spacing: 0.05em;
+}
+
+.project-techs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.tech-pill {
+  padding: 0.35rem 0.95rem;
+  background: var(--cream);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  font-family: 'DM Mono', monospace;
+  border: 1px solid rgba(200, 96, 42, 0.2);
+  transition: all 0.2s;
+}
+
+.tech-pill:hover {
+  background: rgba(200, 96, 42, 0.15);
+  color: var(--accent);
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .projects-grid { gap: 1.5rem; }
+  .project-card { padding: 1.5rem; }
+  .project-header { padding: 0 0 1rem; border-bottom: 1px solid var(--border); }
+  .project-content { padding: 1.5rem 0 0; }
+  .project-metrics { grid-template-columns: 1fr; }
+}
+```
+
+---
+
+## 3️⃣ SEÇÃO HABILIDADES - MELHOR CATEGORIZAÇÃO
+
+### ❌ Problema Atual
+- 4 colunas de skills muito genéricas
+- Difícil diferenciar o que é "Produto" vs "Tecnologia"
+- Não comunica seniority
+
+### ✅ Nova Estrutura com 3 Categorias Claras
+
+```html
+<!-- HABILIDADES - REESTRUTURADO -->
 <section id="habilidades">
   <div class="section-inner">
     <p class="section-label reveal">Competências</p>
@@ -566,6 +689,7 @@
           <h3 class="category-title">Product Management</h3>
           <p class="category-subtitle">Estratégia, definição e evolução de produtos</p>
         </div>
+
         <ul class="skill-list">
           <li>
             <strong>Discovery & Strategy</strong>
@@ -601,6 +725,7 @@
           <h3 class="category-title">Agile & Metodologia</h3>
           <p class="category-subtitle">Liderança de times e processos ágeis</p>
         </div>
+
         <ul class="skill-list">
           <li>
             <strong>Scrum & Kanban</strong>
@@ -636,9 +761,10 @@
           <h3 class="category-title">Tecnologia & Arquitetura</h3>
           <p class="category-subtitle">Stack técnico e domínio de sistemas complexos</p>
         </div>
+
         <div class="tech-grid">
           <div class="tech-category-group">
-            <h4 class="tech-category-name">Backend & BD</h4>
+            <h4 class="tech-category-name">Backend & Banco de Dados</h4>
             <div class="tech-items">
               <span class="tech-item">Java (12+ anos)</span>
               <span class="tech-item">Spring Boot</span>
@@ -646,8 +772,11 @@
               <span class="tech-item">PostgreSQL</span>
               <span class="tech-item">PL/SQL</span>
               <span class="tech-item">WebServices SOA</span>
+              <span class="tech-item">Gradle, Maven</span>
+              <span class="tech-item">Git, Subversion</span>
             </div>
           </div>
+
           <div class="tech-category-group">
             <h4 class="tech-category-name">Frontend & Web</h4>
             <div class="tech-items">
@@ -658,6 +787,7 @@
               <span class="tech-item">RxJS</span>
             </div>
           </div>
+
           <div class="tech-category-group">
             <h4 class="tech-category-name">Servidores & Infra</h4>
             <div class="tech-items">
@@ -668,13 +798,14 @@
               <span class="tech-item">Docker</span>
             </div>
           </div>
+
           <div class="tech-category-group">
             <h4 class="tech-category-name">Legacy & Especializado</h4>
             <div class="tech-items">
               <span class="tech-item">Delphi</span>
               <span class="tech-item">Visual Basic 6</span>
               <span class="tech-item">COBOL</span>
-              <span class="tech-item">DICOM</span>
+              <span class="tech-item">DICOM (Imagens médicas)</span>
               <span class="tech-item">Ingres DB</span>
             </div>
           </div>
@@ -704,59 +835,214 @@
 
   </div>
 </section>
+```
 
-<!-- FORMAÇÃO -->
-<section id="formacao">
-  <div class="section-inner">
-    <p class="section-label reveal">Formação acadêmica</p>
-    <h2 class="section-title reveal">Educação<br>& Certificações</h2>
-    <div class="section-divider reveal"></div>
-    <div class="education-grid">
-      <div class="edu-card reveal">
-        <p class="edu-year">2021 — 2022</p>
-        <p class="edu-degree">Pós-graduação em Gestão de Produto</p>
-        <p class="edu-school">BBI of Chicago</p>
-      </div>
-      <div class="edu-card reveal">
-        <p class="edu-year">2014 — 2015</p>
-        <p class="edu-degree">Pós-graduação em Gerenciamento de Projetos em TI</p>
-        <p class="edu-school">UNIASSELVI</p>
-      </div>
-      <div class="edu-card reveal">
-        <p class="edu-year">2005 — 2009</p>
-        <p class="edu-degree">Bacharelado em Sistemas de Informação</p>
-        <p class="edu-school">Faculdade Gama e Souza</p>
-      </div>
-      <div class="edu-card reveal">
-        <p class="edu-year">2003 — 2004</p>
-        <p class="edu-degree">Técnico em Informática</p>
-        <p class="edu-school">Colégio Primeiro de Maio</p>
-      </div>
-      <div class="edu-card cert reveal">
-        <p class="edu-year">Certificação</p>
-        <p class="edu-degree">CSPO — Certified Scrum Product Owner®</p>
-        <p class="edu-school">Scrum Alliance</p>
-      </div>
-      <div class="edu-card cert reveal">
-        <p class="edu-year">Certificação</p>
-        <p class="edu-degree">Certified SAFe 6 Scrum Master</p>
-        <p class="edu-school">Scaled Agile</p>
-      </div>
-      <div class="edu-card cert reveal">
-        <p class="edu-year">Certificação</p>
-        <p class="edu-degree">Agile Coach</p>
-        <p class="edu-school">Certificação Profissional</p>
-      </div>
-      <div class="edu-card cert reveal">
-        <p class="edu-year">Certificação</p>
-        <p class="edu-degree">OKR: Tome as melhores decisões para impulsionar o crescimento</p>
-        <p class="edu-school">Formação OKR</p>
-      </div>
-    </div>
-  </div>
-</section>
+### ✅ CSS para Nova Estrutura
 
-<!-- CONTATO -->
+```css
+/* ─── HABILIDADES REESTRUTURADO ─── */
+#habilidades { background: var(--cream); }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.skill-category {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.skill-category:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-color: var(--accent);
+  transform: translateY(-4px);
+}
+
+.category-header {
+  padding: 2rem;
+  background: linear-gradient(135deg, var(--light) 0%, var(--cream) 100%);
+  border-bottom: 2px solid var(--border);
+  text-align: center;
+}
+
+.category-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.category-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.category-subtitle {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 300;
+}
+
+.skill-list {
+  list-style: none;
+  padding: 2rem;
+}
+
+.skill-list li {
+  margin-bottom: 1.4rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.skill-list li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.skill-list strong {
+  display: block;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.skill-list span {
+  display: block;
+  font-size: 0.9rem;
+  color: #4a4540;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/*Tech Grid*/
+.tech-grid {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.tech-category-group {
+  margin-bottom: 1rem;
+}
+
+.tech-category-name {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+
+.tech-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tech-item {
+  padding: 0.35rem 0.85rem;
+  background: var(--light);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: #4a4540;
+  font-weight: 500;
+  transition: all 0.2s;
+  display: inline-block;
+  border: 1px solid var(--border);
+}
+
+.tech-item:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* Expertise Domains */
+.expertise-domains {
+  margin-top: 4rem;
+  padding-top: 4rem;
+  border-top: 2px solid var(--border);
+}
+
+.domains-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.domains-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.domain-card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.domain-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 20px rgba(200, 96, 42, 0.1);
+}
+
+.domain-card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: var(--ink);
+}
+
+.domain-card p {
+  font-size: 0.9rem;
+  color: #4a4540;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .tech-grid { grid-template-columns: 1fr; }
+  .domains-grid { grid-template-columns: 1fr; }
+}
+```
+
+---
+
+## 4️⃣ SEÇÃO CONTATO - CTA ESTRATÉGICO
+
+### ❌ Atual
+Contactlinks básicos, sem senso de urgência ou valor
+
+### ✅ Recomendado
+
+```html
+<!-- CONTATO - CTA MELHORADO -->
 <section id="contato">
   <div class="section-inner">
     <p class="section-label reveal">Vamos conversar</p>
@@ -819,12 +1105,302 @@
     </div>
   </div>
 </section>
+```
 
-<footer>
-  Desenvolvido com cuidado · <span>Diego Canindé</span> · 2025 · Blumenau, SC
-</footer>
+### ✅ CSS para Contato Melhorado
 
-<script src="scripts/main.js"></script>
+```css
+/* ─── CONTATO ESTRATÉGICO ─── */
+#contato { 
+  background: linear-gradient(135deg, var(--light) 0%, var(--cream) 100%);
+  position: relative;
+  overflow: hidden;
+}
 
-</body>
-</html>
+#contato::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -50%;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(200, 96, 42, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-content {
+  max-width: 500px;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+}
+
+.contact-title span { color: var(--accent); }
+
+.contact-subtitle {
+  font-size: 1rem;
+  color: #4a4540;
+  font-weight: 300;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.contact-value-props {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.value-prop {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.vp-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--accent);
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.vp-text {
+  font-size: 0.95rem;
+  color: #4a4540;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-top: 0.2rem;
+}
+
+/* CTAs */
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.3rem 1.8rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.cta-button:hover::before {
+  left: 100%;
+}
+
+.cta-primary {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px rgba(200, 96, 42, 0.25);
+}
+
+.cta-primary:hover {
+  box-shadow: 0 12px 36px rgba(200, 96, 42, 0.35);
+  transform: translateY(-2px);
+}
+
+.cta-secondary {
+  background: white;
+  color: var(--ink);
+  border: 2px solid var(--accent2);
+}
+
+.cta-secondary:hover {
+  background: var(--accent2);
+  color: white;
+  box-shadow: 0 8px 24px rgba(42, 92, 143, 0.25);
+}
+
+.cta-tertiary {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+.cta-tertiary:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.cta-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: left;
+}
+
+.cta-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: block;
+}
+
+.cta-desc {
+  font-size: 0.8rem;
+  opacity: 0.9;
+  display: block;
+  font-weight: 400;
+}
+
+/* Contact Info */
+.contact-info {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.contact-info p {
+  font-size: 0.9rem;
+  color: #4a4540;
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.contact-info a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  #contato::before {
+    right: -100%;
+    width: 600px;
+    height: 600px;
+  }
+}
+```
+
+---
+
+## 5️⃣ MELHORIAS VISUAIS GLOBAIS
+
+### Espaçamento Aprimorado
+
+```css
+/* Melhor espaçamento entre seções */
+section {
+  padding: 7rem 4rem;
+  margin-top: 0;
+}
+
+section:nth-of-type(odd) {
+  background: var(--paper);
+}
+
+section:nth-of-type(even) {
+  background: var(--light);
+}
+
+/* Seções específicas */
+#sobre { background: var(--light); }
+#experiencia { background: var(--paper); }
+#projetos { background: #f9f8f6; }
+#habilidades { background: var(--cream); }
+#formacao { background: var(--paper); }
+#contato { background: linear-gradient(135deg, var(--light) 0%, var(--cream) 100%); }
+```
+
+### Hierarquia de Headings Melhorada
+
+```css
+h1 { /* Hero name */ }
+h2 { /* Section titles - Playfair 3rem */ }
+h3 { /* Project titles, Skill categories */ }
+h4 { /* Subtitles, category names */ }
+```
+
+---
+
+## 6️⃣ RESUMO DAS AÇÕES PRIORITÁRIAS
+
+### 🔴 **CRÍTICA** (Fazer Imediatamente)
+1. ✅ Adicionar meta description e schema.org
+2. ✅ Reformular seção Projetos com contexto/problema/atuação/resultado
+3. ✅ Reestruturar Habilidades em 3 categorias claras
+
+### 🟡 **IMPORTANTE** (Próximas 1-2 semanas)
+1. ✅ Melhorar seção Contato com CTA forte
+2. ✅ Adicionar domínios de expertise (Healthcare, Enterprise, Systems Complexos)
+3. ✅ Aprimorar espaçamento e hierarquia visual
+
+### 🟢 **COMPLEMENTAR** (Depois)
+1. ✅ Adicionar animações scroll reveal nos projetos
+2. ✅ Google Analytics e tracking
+3. ✅ Otimizar imagens (lazy loading)
+
+---
+
+## 7️⃣ COMANDO SUGERIDO PARA IMPLEMENTAÇÃO
+
+Comece pelos projetos (impacto máximo),depois habilidades, depois contato e meta tags.
+
+Quer que eu implemente essas mudanças no seu código?
