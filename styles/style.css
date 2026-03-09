@@ -368,7 +368,6 @@ section { padding: 7rem 4rem; }
   background: var(--accent);
   transition: width 0.4s ease;
 }
-.project-card:hover { background: #222; }
 .project-card:hover::after { width: 100%; }
 .project-num {
   font-family: 'DM Mono', monospace;
@@ -697,10 +696,10 @@ footer span { color: var(--accent); }
 }
 
 .project-results-list li {
-  padding: 0.75rem 1rem 0.75rem 2.5rem;
-  background: var(--light);
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  padding: 0.25rem 0 0.25rem 2rem;
+  background: transparent;
+  border-radius: 0;
+  border: none;
   font-size: 0.95rem;
   color: var(--text-secondary);
   position: relative;
